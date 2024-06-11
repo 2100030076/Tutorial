@@ -9,7 +9,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </div>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>HOME</a></li>
+        <li><router-link to="/">HOME</router-link></li>
         <li>
           <a>COURSES</a>
           <ul class="p-2">
@@ -26,7 +26,7 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-3 text-lg font-serif space-x-4 text-blue-600 hover:bg-white">
-      <li><a>HOME</a></li>
+      <li><router-link to="/">HOME</router-link></li>
       <li>
         <details>
           <summary>COURSES</summary>
@@ -37,16 +37,19 @@
           </ul>
         </details>
       </li>
-      <li><a>ABOUT US</a></li>
+      <li><router-link to="/about">ABOUT US</router-link></li>
      
     </ul>
   </div>
   <div class="navbar-end ">
-    <a class="btn md:text-lg  text-sm bg-blue-600 text-white">Contact</a>
+    <router-link to="/contact" class="btn md:text-lg  text-sm bg-blue-600 text-white">Contact</router-link>
   </div>
   <div>
   </div>
 </div>
+<main>
+    <RouterView />
+  </main>
 
 
     </template>

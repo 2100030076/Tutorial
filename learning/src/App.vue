@@ -1,7 +1,7 @@
 <script setup>
 
 import navbarView from './views/navbarView.vue'
-import HomeView from './views/HomeView.vue';
+
 
  
  
@@ -13,7 +13,7 @@ import HomeView from './views/HomeView.vue';
 
 <template>
   <navbar-view />
-  <HomeView/>
+ 
  
   
   
