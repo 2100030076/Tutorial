@@ -13,9 +13,9 @@
         <li>
           <a>COURSES</a>
           <ul class="p-2">
-            <li><a>JAVA</a></li>
-            <li><a>PYTHON</a></li>
-            <li><a>JavaScript</a></li>
+            <li><router-link to="/java">JAVA</router-link></li>
+            <li><router-link to="/python">Python</router-link></li>
+            <li><router-link to="/javascript">Javascript</router-link></li>
           </ul>
         </li>
         <li><RouterLink to="/about">ABOUT US</RouterLink></li>
@@ -31,9 +31,9 @@
         <details>
           <summary>COURSES</summary>
           <ul class="p-2">
-            <li><a>Java</a></li>
-            <li><a>Python</a></li>
-            <li><a>Javascript</a></li>
+            <li><router-link to="/java">Java</router-link></li>
+            <li><router-link to="/python">Python</router-link></li>
+            <li><router-link to="/javascript">Javascript</router-link></li>
           </ul>
         </details>
       </li>
